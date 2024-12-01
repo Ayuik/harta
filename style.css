@@ -1,0 +1,39 @@
+h1 {
+    color: violet;
+  }
+  
+  h2 {
+    color: pink;
+  }
+  
+  .title {
+    text-align: center;
+  }
+
+  .imagen-principal {
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    border: 5px solid black;
+  }
+
+  .imagenDos {
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    border: 5px solid red;
+}
+
+[popover] {
+  transition: translate 10s ease-in-out ,
+  display 10s ease-in-out allow-discrete;
+  translate: 0 -100dvh;
+}
+
+[popover]:popover-open {
+  translate: 0;
+}
+
+[popover]::backdrop {
+  background-color: rgba(137, 43, 226, 0.253);
+}
