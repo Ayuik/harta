@@ -1,4 +1,13 @@
-h1 {
+  #cuenta_carrito {
+    background-color: orangered;
+    border-radius: 100%;
+    aspect-ratio: 1;
+    display: inline-block;
+    text-align: center;
+    width: 20px;
+    line-height: 20px;
+  }
+  h1 {
     color: rgb(33, 206, 191);
   }
   
@@ -37,3 +46,22 @@ h1 {
 [popover]::backdrop {
   background-color: rgba(137, 43, 226, 0.253);
 }
+
+.color_selection {
+  border-radius: 50%;
+  border: solid 2px rgb(97, 93, 93);
+  width: 30px;
+  height: 30px;
+}
+
+#red {
+  background-color: red;
+}
+
+#blue {
+  background-color: blue;
+}
+
+.color_selection:focus {
+  outline: 2px solid rgb(36, 35, 35);
+};
